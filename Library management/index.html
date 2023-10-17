@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <section class="container_forms">
+        <div class="form_login">
+            <header>Login</header>
+            <form action="api/login.php" method="post">
+                <div class="input_field">
+                    <input type="text" placeholder="Username" name="name" class="input">
+                </div>
+                <div class="input_field">
+                    <input type="password" placeholder="password" name="password" class="input">
+                </div>
+                <div class="form_link">
+                    <a href="route\forgetpassword.html" class = " forgot_link">Forgot Password?</a>
+                </div>
+                <div class="login_button"><button>Login</button></div>
+                <div class="form_link">
+                    <span>New User? <a href="route\registration.html" class="signup_link">Signup</a></span>
+                </div>
+
+            </form>
+
+            <div class="line"></div>
+        
+
+        <div class="media_options">
+            <a href="" class="facebook">
+                <i class='bx bxl-facebook'></i>
+            <span>Login with Facebook</span>
+            </a>
+        </div>
+        <div class="media_options">
+            <a href="" class="google">
+                <i class='bx bxl-google' ></i>
+            <span>Login with Facebook</span>
+            </a>
+        </div>
+    </div>
+    </section>
+    
+</body>
+</html>
